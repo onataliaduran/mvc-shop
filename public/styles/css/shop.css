@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1a1c21;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}  
+    
+.nav {
+    padding: 1.5rem 4.5rem 1rem 4.5rem;
+    display: flex;
+}
+
+.nav__logo {
+    font-weight: 800;
+    margin-right: 1.1rem;
+}
+
+.nav__links {
+    font-size: 0.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__group__left {
+    display: flex;
+    align-items: center;
+}
+
+.nav__group__right {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    font-size: 12px;
+    margin-left: 1.3rem;
+    cursor: pointer;
+}
+
+.layout {
+    padding: 1rem 4.5rem;
+}
+
+.title {
+    margin: 1.5rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    background: linear-gradient(
+        to right bottom,
+        rgba(105, 105, 105, 0.1),
+        rgba(105, 105, 105, 0.3)
+    );
+    height: 10rem;
+    width: 12rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.btn {
+    background: #cecece;
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.form__group {
+    margin-bottom: 1rem;
+}
+
+.form__control .input {
+    background: transparent;
+    color: #fff;
+    padding: .5rem;
+    border: 1px solid #fff;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.form__control .textarea {
+    background: transparent;
+    color: #fff;
+    padding: .5rem;
+    border: 1px solid #fff;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    display: block;
+}

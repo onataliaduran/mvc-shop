@@ -1,0 +1,27 @@
+<%- include('../includes/head.ejs') %>
+
+<body>
+    <%- include('../includes/navigation.ejs') %>
+
+    <main class="layout">
+        <h1 class="title">All Courses</h1>
+
+        <% if(prods.length > 0) { %>
+            <div class="grid">
+                <% prods.forEach((product) => { %>
+                    <div class="card">
+                        <p><%= product.title %></p>
+                    </div>
+                <% }) %>
+            </div>
+        <% } else { %>
+            <div class="grid">
+                <p>No products found</p>
+            </div>
+        <% } %>
+    </main>
+    
+</body>
+
+<%- include('../includes/end.ejs') %>
+
